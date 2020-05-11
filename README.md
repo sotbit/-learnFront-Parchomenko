@@ -1,6 +1,6 @@
 
 
-STUDENT: "write your name here";    
+STUDENT: "Ivan Parkhomenka";    
 PROJECT: "Learn origami";
 
 
