@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Origami</title>
+</head>
+<body>
+    <!--Если нет тега img, значит иконки будут подгруженны посредством псевдоэлементов before и after-->
+    <!--HEADER-->
+    <header class="main-header">
+        
+        <div class="header-opportunities">
+            <img src="img" alt="" class="logo">
+            <div class="user-placement">
+                <span>Ваш город</span>
+                <button class="placement-btn">Санкт-Петербург</button>
+            </div>
+            <input type="text" class="user-search" placeholder="Поиск">
+            <div class="user-contact">
+                <span>+7 (495) 123-45-67</span>
+                <button class="order-call-btn">Заказать звонок</button>
+            </div>
+            <ul class="user-navigation">
+                <li class="login-link">Войти</li>
+            </ul>
+            <ul class="user-shops">
+                <li><a href="#"><img src="img" alt=""></a></li>
+                <li><a href="#"><img src="img" alt=""></a></li>
+                <li><a href="#"><img src="img" alt=""></a></li>
+            </ul>
+        </div>
+        <nav class="header-navigation">
+            <ul>
+                <li>
+                    <a href="" class="nav-categories"></a>
+                    <a href="#">Каталог</a>
+                    <button class="show-categories"></button>
+                </li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Бренды</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Покупателям</a></li>
+                <li>
+                    <a href="#">О компании</a>
+                    <button class="show-about"></button>
+                </li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--MAIN CONTENT-->
+    <main class="main-container">
+
+        <!--PROMO SECTION-->
+        <section class="promo-section">
+            <h1 class="visualy-hiden">Заголовок</h1>
+            <div class="promo-advertising">
+                <div class="promo-slider">
+                    <span>Акции</span>
+                    <h2>Скидки на все товары бренда "Nike"</h2>
+                    <p>Мы предлагаем вам стать частью большой семьи Levi’s: 
+                        до 31 декабря вы можете купить любую одежду этой 
+                        торговой марки со скидкой 10%. 
+                        Не упустите эту возможность!</p>
+                    <a href="" class="show-catalog">Перейти в каталог</a>
+                    <ol class="slider-list">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ol>
+                </div>
+                <div class="promo-categories">
+                    <ul>
+                        <li><a href="#"><img src="img" alt="">Компьютеры</a></li>
+                        <li><a href="#"><img src="img" alt="">Бытовая техника</a></li>
+                        <li><a href="#"><img src="img" alt="">Спортивные товары</a></li>
+                        <li><a href="#"><img src="img" alt="">Все для дачи</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="promo-features">
+                <ul>
+                    <li><a href="#">Бесплатная доставка</a></li>
+                    <li><a href="#">Оплата картами</a></li>
+                    <li><a href="#">Работа в регионе</a></li>
+                    <li><a href="#">Самые низкие цены</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--FAMOUS CATEGORIES SECTION-->
+        <section class="famous-section">
+            <h2>Популярные категории</h2>
+            <a href="#" class="show-all-famous">Все категории</a>
+            <ul class="famous-items">
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Бытовая техника</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Дом, дача, ремонт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Спорт и отдых</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Сантехника</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Компьютеры</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Аксессуары</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Электроника</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img" alt="">
+                        <p>Одежда</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!--THE MOST POPULAR GOODS SECTION-->
+        <section class="popular-goods-section">
+            <h2 class="visualy-hiden">Заголовок</h2>
+            <button class="discount-goods-btn">Акция</button>
+            <button class="discount-hits-btn">Акция</button>
+            <div class="popular-goods-items">
+                <ul>
+                    <li>
+                        <img src="img" alt="">
+                        <a href="#" class="good-link">Кеды SB DELTA FORCEVULC, Nike</a>
+                        <input type="radio" name="stars" value="4">
+                        <span class="quantity-good">37 шт</span>
+                        <span class="code-good">Артикул: 00674157</span>
+                        <p class="price-good">3 100 руб.</p>
+                        <p class="color-good">Цвет:</p>
+                        <ol class="color-good-items">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+                        <p class="size-good">Размер:</p>
+                        <ol class="size-good-items">
+                            <li>39</li>
+                            <li>40</li>
+                            <li>41</li>
+                        </ol>
+                        <button class="buy-good-btn">В корзину</button>
+                    </li>
+                    <li>
+                        <img src="img" alt="">
+                        <a href="#" class="good-link">Кроссовки VARSITY COMPETE TRAINER, Nike</a>
+                        <input type="radio" name="stars" value="4">
+                        <span class="quantity-good">37 шт</span>
+                        <span class="code-good">Артикул: 00674157</span>
+                        <p class="price-good">6 000 руб.</p>
+                        <p class="color-good">Цвет:</p>
+                        <ol class="color-good-items">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+                        <p class="size-good">Размер:</p>
+                        <ol class="size-good-items">
+                            <li>39</li>
+                            <li>40</li>
+                            <li>41</li>
+                        </ol>
+                        <button class="buy-good-btn">В корзину</button>
+                    </li>
+                    <li>
+                        <img src="img" alt="">
+                        <a href="#" class="good-link">Кроссовки REVOLUTION 4 (GS), Nike</a>
+                        <input type="radio" name="stars" value="4">
+                        <span class="quantity-good">37 шт</span>
+                        <span class="code-good">Артикул: 00674157</span>
+                        <p class="price-good">4 500 руб.</p>
+                        <p class="color-good">Цвет:</p>
+                        <ol class="color-good-items">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+                        <p class="size-good">Размер:</p>
+                        <ol class="size-good-items">
+                            <li>39</li>
+                            <li>40</li>
+                            <li>41</li>
+                        </ol>
+                        <button class="buy-good-btn">В корзину</button>
+                    </li>
+                    <li>
+                        <img src="img" alt="">
+                        <a href="#" class="good-link">Кроссовки WMNS TANJUN, Nike</a>
+                        <input type="radio" name="stars" value="4">
+                        <span class="quantity-good">37 шт</span>
+                        <span class="code-good">Артикул: 00674157</span>
+                        <p class="price-good">5 500 руб.</p>
+                        <p class="color-good">Цвет:</p>
+                        <ol class="color-good-items">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+                        <p class="size-good">Размер:</p>
+                        <ol class="size-good-items">
+                            <li>39</li>
+                            <li>40</li>
+                            <li>41</li>
+                        </ol>
+                        <button class="buy-good-btn">В корзину</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BLOG SECTION-->
+        <section class="blog-section">
+            <h2>Блог</h2>
+            <a href="#" class="show-all-articles">Все статьи</a>
+            <article class="main-blog-article">
+                <h3>Какой телефон подарить ребенку 
+                    на день рождения?</h3>
+                <p>Гаджеты без излишеств, которые понравятся ребенку и помогут вам поддерживать с ним связь.</p>
+                <a href="" class="show-article-link">Читать статью</a>
+            </article>
+            <div class="article-blog-items">
+                <div class="article-good-item">
+                    <img src="img" alt="">
+                    <div class="article-blog-inner">
+                        <h4>Модные тенденции  - 2019: цвета, стили 
+                        и аксессуары</h4>
+                        <p class="description-article">
+                        Специально для Вас мы подготовили несколько модных советов от дизайнеров. Уже сегодня вы мож ...
+                        </p>
+                    </div>
+                </div>
+                <div class="article-good-item">
+                    <img src="img" alt="">
+                    <div class="article-blog-inner">
+                        <h4>Модные тенденции  - 2019</h4>
+                        <p class="description-article">
+                        Специально для Вас мы подготовили несколько модных советов от дизайнеров. Уже сегодня вы мож ...
+                        </p>
+                    </div>
+                    <a href="" class="read-more-link">Читать полностью</a>
+                </div>
+            </div>
+        </section>
+
+        <!--DISCOUNTS SECTION-->
+        <section class="discounts-section">
+            <h2>Блог</h2>
+            <a href="#" class="show-all-articles">Все статьи</a>
+            <ol class="doscount-items">
+                <li class="discount-item">
+                    <img src="img" alt="">
+                    <div class="discount-description">
+                        <span>с 20 марта по 31 декабря 2019</span>
+                        <h4>Скидка на все товары бренда “Nike”</h4>
+                        <a href="" class="discount-more-link">Подробнее</a>
+                    </div>
+                </li>
+                <li class="discount-item">
+                    <img src="img" alt="">
+                    <div class="discount-description">
+                        <span>с 20 марта по 31 декабря 2019</span>
+                        <h4>Скидка на все товары бренда “Nike”</h4>
+                        <a href="" class="discount-more-link">Подробнее</a>
+                    </div>
+                </li>
+                <li class="discount-item">
+                    <img src="img" alt="">
+                    <div class="discount-description">
+                        <span>с 20 марта по 31 декабря 2019</span>
+                        <h4>Скидка на все товары бренда “Nike”</h4>
+                        <a href="" class="discount-more-link">Подробнее</a>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!--CONTACT US SECTION-->
+        <section class="contact-section">
+            <h2>Понравилось наше предложение?</h2>
+            <p>Оставьте нам свои данные и наши менеджеры свяжутся с вами!</p>
+            <form action="URL" class="main-form">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="E-mail *">
+                <input type="text" placeholder="Номер телефона *">
+                <button class="get-in-touch-us-btn">Связаться с нами</button>
+                <input type="checkbox" class="agreement-form">
+            </form>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="main-footer">
+        <ul>
+            <li>
+                <div class="p"><span class="bold-text">Сотбит Оригами</span> – универсальный шаблон 
+                    для создания интернет-магазинов любой тематики.
+                    Многие знакомы с принципом оригами – за основу берется квадратный лист бумаги,
+                    из которого складывается фигурка.  </div>
+                <p class="placement-sotbit">ул. Ленина, 15</p>
+                <p class="mail-sotbit">sales@origami.sotbit.ru</p>
+                <p class="phone-sotbit">
+                    +7 (495) 111-11-11 
+                    <button class="another-phones-sotbit"></button>
+                    <a href="#"></a>
+                </p>
+                <button class="order-call-sotbit-btn">Заказать звонок</button>
+            </li>
+            <li>
+                <h4>Каталог</h4>
+                <ul>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Бренды</a></li>
+                    <li><a href="#">Новости компании</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Помощь</h4>
+                <ul>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Возврат товара</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Как оформить заказ</a></li>
+                    <li><a href="#">Правила продажи товаров</a></li>
+                    <li><a href="#">Публичная оферта</a></li>
+                    <li><a href="#">Конфиденциальность</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Подписаться на нас</h4>
+                <form action="URL" class="subscribe-form-footer">
+                    <input type="text" class="subscribe-input" placeholder="Ваш e-mail">
+                    <button class="subscribe-footer-btn"></button>
+                </form>
+                <h4>Мы в социальных сетях</h4>
+                <ul>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="bottom-footer">
+            <div class="bootom-footer-column">
+                <img src="img" alt="" class="sotbit-logo">
+                <span>© Сотбит: Оригами – интернет-магазин, 2019</span>
+            </div>
+            <div class="bootom-footer-column">
+                <ul>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                    <li><a href="#"><img src="img" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
